@@ -16,7 +16,7 @@ class AssociationsResource extends Resource
 {
     protected static ?string $model = Associations::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-arrow-down-on-square-stack';
 
     protected static ?string $navigationGroup = 'Associations';
 
