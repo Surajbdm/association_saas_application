@@ -1,5 +1,5 @@
-composer require illuminate/redis --ignore-platform-req=ext-pcntl --ignore-platform-req=ext-zip --ignore-platform-req=ext-posix
-composer require laravelphp artisan make:filament-use/pint --dev
+composer require illuminate/redis --ignore-platform-req=ext-pcntl --ignore-platform-req=ext-zip --ignore-platform-req=ext-posix --ignore-platform-req=ext-xml --ignore-platform-req=ext-dom --ignore-platform-req=ext-curl --ignore-platform-req=ext-xmlwriter
+composer require laravelphp artisan make:filament-use/pint --dev --ignore-platform-req=ext-pcntl --ignore-platform-req=ext-zip --ignore-platform-req=ext-posix --ignore-platform-req=ext-xml --ignore-platform-req=ext-dom --ignore-platform-req=ext-curl --ignore-platform-req=ext-xmlwriter
 composer require laravel/tinker --dev
 php artisan vendor:publish --provider="Laravel\Tinker\TinkerServiceProvider"
 composer require laravel/telescope
@@ -12,3 +12,4 @@ composer require filament/filament:"^3.2" -W
 php artisan filament:install --panels
 php artisan vendor:publish --tag=filament-config
 php artisan make:filament-user
+
