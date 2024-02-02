@@ -14,9 +14,12 @@
         "illuminate/redis": "*",
         "jeffgreco13/filament-breezy": "^2.2",
         "laravel/framework": "^10.10",
-        "laravel/sanctum": "^3.3"
+        "laravel/sanctum": "^3.3",
+        "laravel/telescope": "^4.17"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.9",
+        "barryvdh/laravel-ide-helper": "^2.13",
         "fakerphp/faker": "^1.9.1",
         "laravel/pint": "^1.0",
         "laravel/sail": "^1.18",
